@@ -3,70 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Café Sinagoga | Colombian coffee in Charlotte</title>
-  <meta name="description" content="Colombian origin coffee in Charlotte, North Carolina. Geisha, Pink Bourbon, and Castillo with local delivery or pickup." />
+  <title>Café Sinagoga | Colombian Specialty Coffee in Charlotte</title>
+  <meta name="description" content="Premium Colombian coffee in Charlotte, NC. Geisha, Pink Bourbon, and Castillo. From the mountains of Huila to your cup." />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a class="wa-float" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">WhatsApp</a>
+  <a class="wa-float" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">
+    <img src="assets/wa-icon.png" alt=""> Order via WhatsApp
+  </a>
+
   <header class="hero">
-    <div class="orb one"></div><div class="orb two"></div><div class="orb three"></div>
+    <div class="hero-overlay"></div>
     <div class="container">
-      <div class="topbar">
-        <div>
-          <div class="brand-small">Charlotte, North Carolina · Order by WhatsApp</div>
-          <div class="brand">CAFÉ SINAGOGA</div>
+      <nav class="topbar">
+        <div class="brand-group">
+          <span class="brand-small">DIRECT FROM HUILA & NARIÑO TO CHARLOTTE, NC</span>
+          <h1 class="brand">CAFÉ SINAGOGA</h1>
         </div>
-        <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <a class="btn btn-secondary" href="index.html">Language</a>
-          <a class="btn btn-primary" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">Order now</a>
+        <div class="nav-actions">
+          <a class="btn btn-secondary" href="index.html">Español</a>
+          <a class="btn btn-primary pulse" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga">ORDER NOW</a>
         </div>
-      </div>
+      </nav>
 
       <section class="hero-grid">
-        <div>
-          <div class="pill">Colombian origin, flavor that leaves a mark</div>
-          <h1>Specialty and origin Colombian coffee for Charlotte.</h1>
-          <p class="lead">Café Sinagoga brings together landscape, origin, and premium presentation to create a memorable coffee experience. Available in Charlotte with local delivery or pickup, each coffee offers a distinctive regional identity and a well-defined cup profile.</p>
+        <div class="hero-content">
+          <div class="pill">100% Colombian Specialty Coffee</div>
+          <h2 class="hero-title">Experience the Soul of the Colombian Andes.</h2>
+          <p class="lead">We bring the high-altitude landscapes of Huila and Nariño directly to Charlotte. Hand-picked, premium beans with a story in every cup.</p>
           <div class="actions">
-            <a class="btn btn-primary" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">Order on WhatsApp</a>
-            <a class="btn btn-secondary" href="#products">Explore coffees</a>
-          </div>
-          <div class="stats">
-            <article class="tile"><h3>100% Colombian</h3><p>Origin coffees with regional identity from Huila and Nariño.</p></article>
-            <article class="tile"><h3>US-friendly sizing</h3><p>Pack sizes shown in grams and ounces for clarity in the US market.</p></article>
-            <article class="tile"><h3>Local sale</h3><p>Delivery and pickup available in Charlotte, North Carolina.</p></article>
+            <a class="btn btn-primary btn-lg" href="#products">View Collection</a>
+            <a class="btn btn-outline-light" href="https://wa.me/18285798605">Fast Delivery in Charlotte</a>
           </div>
         </div>
 
-        <div class="glass">
-          <div class="glass-inner">
-            <div class="overline light">Featured collection</div>
-            <div class="products-list">
-              <article class="product-mini">
-                <div class="product-mini-head">
-                  <div><h4>Geisha Natural</h4><div class="muted">250 g · 8.8 oz</div></div>
-                  <span class="price">$30</span>
-                </div>
-                <div class="muted" style="margin-top:8px">Acevedo, Pitalito, Huila · 1750 masl</div>
-                <div class="note-box">Red apple, dulce de leche, caramel, orange, floral · Whole bean or ground</div>
-              </article>
-              <article class="product-mini">
-                <div class="product-mini-head">
-                  <div><h4>Pink Bourbon Natural</h4><div class="muted">250 g · 8.8 oz</div></div>
-                  <span class="price">$25</span>
-                </div>
-                <div class="muted" style="margin-top:8px">Acevedo, Pitalito, Huila · 1750 masl</div>
-                <div class="note-box">Red berries, plum, guava, chocolate · Whole bean or ground</div>
-              </article>
-              <article class="product-mini">
-                <div class="product-mini-head">
-                  <div><h4>Castillo</h4><div class="muted">453 g · 16.0 oz</div></div>
-                  <span class="price">$25</span>
-                </div>
-                <div class="muted" style="margin-top:8px">La Unión, Nariño · 1800 masl</div>
-                <div class="note-box">Castillo variety · Grower: Familia Reyes · Ground only</div>
-              </article>
+        <div class="glass-card">
+          <div class="overline">Top Rated This Week</div>
+          <div class="featured-item">
+            <img src="assets/geisha-white.png" alt="Geisha Natural" class="img-mini">
+            <div class="featured-info">
+              <h4>Geisha Natural</h4>
+              <p class="notes">Apple • Caramel • Floral</p>
+              <span class="price-tag">$30</span>
             </div>
           </div>
         </div>
@@ -75,110 +54,132 @@
   </header>
 
   <main>
-    <section class="section">
-      <div class="container section-head">
-        <div>
-          <div class="overline" style="color:var(--forest)">Gallery</div>
-          <h2>A brand that connects landscape, coffee, and purchase desire.</h2>
+    <section class="origin-strip">
+      <div class="container stats-bar">
+        <div class="stat-item">
+          <span class="stat-val">1750m</span>
+          <span class="stat-label">High Altitude</span>
         </div>
-        <p>Real product photography builds trust. The page highlights variety, brewing context, and the visual identity of Café Sinagoga through a warm and premium aesthetic.</p>
+        <div class="stat-item">
+          <span class="stat-val">Hand-Picked</span>
+          <span class="stat-label">Superior Quality</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-val">Charlotte, NC</span>
+          <span class="stat-label">Local Delivery</span>
+        </div>
       </div>
-      <div class="container gallery-grid">
-        <div class="gallery-card large"><img src="assets/three-bags.png" alt="Three Café Sinagoga coffees" /><div class="gallery-caption">Three profiles, one identity</div></div>
-        <div class="gallery-card"><img src="assets/castillo-garden.png" alt="Café Sinagoga bag in garden" /></div>
-        <div class="gallery-card"><img src="assets/brew-setup.png" alt="Café Sinagoga bag next to brewer" /></div>
+    </section>
+
+    <section class="section gallery">
+      <div class="container">
+        <div class="section-head text-center">
+          <div class="overline">Our Landscape</div>
+          <h2>Where Nature Meets Perfection</h2>
+        </div>
+        <div class="gallery-mosaic">
+          <div class="mosaic-item main-img">
+            <img src="assets/colombia-landscape-product.jpg" alt="Café Sinagoga in Colombian Mountains" />
+          </div>
+          <div class="mosaic-item">
+            <img src="assets/brew-setup.png" alt="Perfect Brew" />
+          </div>
+          <div class="mosaic-item">
+            <img src="assets/castillo-garden.png" alt="Our Heritage" />
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section" id="products">
-      <div class="container section-head">
-        <div>
-          <div class="overline" style="color:var(--forest)">Products</div>
-          <h2>Three coffees, three distinct experiences.</h2>
+      <div class="container">
+        <div class="section-head">
+          <h2>The Sinagoga Collection</h2>
+          <p>Carefully selected varieties for the discerning palate.</p>
         </div>
-        <p>From floral and fruit-forward notes to a more classic origin profile, the collection is built for different preferences without losing its Colombian character.</p>
-      </div>
-      <div class="container product-grid">
-        <article class="product-card">
-          <img src="assets/geisha-white.png" alt="Geisha Natural coffee bag" />
-          <div class="product-body">
-            <span class="product-badge">Specialty</span>
-            <h3>Geisha Natural</h3>
-            <div class="size">250 g · 8.8 oz · $30</div>
-            <p><strong>Origin:</strong> Acevedo, Pitalito, Huila, Colombia<br><strong>Altitude:</strong> 1750 masl</p>
-            <p>An elegant, aromatic profile with sweet, citrus, and floral layers. Ideal for customers looking for a more refined and memorable specialty coffee experience.</p>
-            <div class="chips">
-              <span class="chip">Red apple</span><span class="chip">Dulce de leche</span><span class="chip">Caramel</span><span class="chip">Orange</span><span class="chip">Floral</span><span class="chip">Whole bean or ground</span>
+        
+        <div class="product-grid">
+          <article class="product-card premium">
+            <div class="badge specialty">Specialty</div>
+            <div class="img-container">
+               <img src="assets/geisha-white.png" alt="Geisha Natural" />
             </div>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <img src="assets/bourbon-white.png" alt="Pink Bourbon Natural coffee bag" />
-          <div class="product-body">
-            <span class="product-badge">Specialty</span>
-            <h3>Pink Bourbon Natural</h3>
-            <div class="size">250 g · 8.8 oz · $25</div>
-            <p><strong>Origin:</strong> Acevedo, Pitalito, Huila, Colombia<br><strong>Altitude:</strong> 1750 masl</p>
-            <p>A vibrant fruit-forward cup with juicy sweetness and a rounded finish. Excellent for buyers who want complexity and balance in the same brew.</p>
-            <div class="chips">
-              <span class="chip">Red berries</span><span class="chip">Plum</span><span class="chip">Guava</span><span class="chip">Chocolate</span><span class="chip">Whole bean or ground</span>
+            <div class="product-body">
+              <h3>Geisha Natural</h3>
+              <p class="origin-text">Origin: Acevedo, Pitalito, Huila</p>
+              <div class="flavor-profile">
+                <span class="note">🍎 Red Apple</span>
+                <span class="note">🍯 Caramel</span>
+                <span class="note">🌸 Floral</span>
+              </div>
+              <div class="product-footer">
+                <span class="price">$30 <small>(250g / 8.8oz)</small></span>
+                <a href="https://wa.me/18285798605" class="btn btn-buy">Buy Now</a>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <article class="product-card">
-          <img src="assets/castillo-bag.png" alt="Castillo coffee bag" />
-          <div class="product-body">
-            <span class="product-badge">Origin</span>
-            <h3>Castillo</h3>
-            <div class="size">453 g · 16.0 oz · $25</div>
-            <p><strong>Origin:</strong> La Unión, Nariño, Colombia<br><strong>Altitude:</strong> 1800 masl</p>
-            <p>A Colombian origin option grown by Familia Reyes. Built for customers looking for a traditional, balanced cup that reflects the coffee character of Nariño.</p>
-            <div class="chips">
-              <span class="chip">Castillo variety</span><span class="chip">Familia Reyes</span><span class="chip">Ground only</span>
+          <article class="product-card premium">
+            <div class="badge specialty">Specialty</div>
+            <div class="img-container">
+               <img src="assets/bourbon-white.png" alt="Pink Bourbon Natural" />
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
+            <div class="product-body">
+              <h3>Pink Bourbon Natural</h3>
+              <p class="origin-text">Origin: Acevedo, Pitalito, Huila</p>
+              <div class="flavor-profile">
+                <span class="note">🍓 Red Berries</span>
+                <span class="note">🍫 Chocolate</span>
+                <span class="note">🍈 Guava</span>
+              </div>
+              <div class="product-footer">
+                <span class="price">$25 <small>(250g / 8.8oz)</small></span>
+                <a href="https://wa.me/18285798605" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </article>
 
-    <section class="section">
-      <div class="container split">
-        <article class="cta-card">
-          <div class="overline" style="color:#f2d5c8">Why it works</div>
-          <h2>The buyer does not just see coffee. They see origin, design, and trust.</h2>
-          <p>Clear pricing, defined flavor profiles, strong origin storytelling, and a direct WhatsApp ordering channel make the purchase decision easier while elevating the brand perception.</p>
-          <a class="btn btn-light" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">Message on WhatsApp</a>
-        </article>
-        <div class="feature-grid">
-          <article class="feature-card"><h3>Clear origin</h3><p>Huila and Nariño provide immediate differentiation and product credibility.</p></article>
-          <article class="feature-card"><h3>Tasting notes</h3><p>They guide buyer choice and turn curiosity into purchase intent.</p></article>
-          <article class="feature-card"><h3>Simple purchase</h3><p>Order directly through WhatsApp with minimal friction.</p></article>
-          <article class="feature-card"><h3>Local market</h3><p>Messaging tailored to customers in Charlotte, North Carolina.</p></article>
+          <article class="product-card premium">
+            <div class="badge">Origin</div>
+            <div class="img-container">
+               <img src="assets/castillo-bag.png" alt="Castillo Coffee" />
+            </div>
+            <div class="product-body">
+              <h3>Castillo Variety</h3>
+              <p class="origin-text">Origin: La Unión, Nariño</p>
+              <div class="flavor-profile">
+                <span class="note">🌿 Balanced</span>
+                <span class="note">☕ Traditional</span>
+                <span class="note">👨‍🌾 Familia Reyes</span>
+              </div>
+              <div class="product-footer">
+                <span class="price">$25 <small>(453g / 16oz)</small></span>
+                <a href="https://wa.me/18285798605" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </article>
         </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container dual-grid">
-        <article class="pickup">
-          <div class="overline" style="color:var(--clay)">Local purchase</div>
-          <h2>Delivery and pickup in Charlotte</h2>
-          <p>Order by direct WhatsApp message. Local delivery is available <strong> Charlotte, NC 28270</strong>. Coffee prices are fixed; delivery cost may vary depending on the location.</p>
-          <a class="btn btn-primary" href="https://wa.me/18285798605?text=Hello%2C%20I%20want%20to%20order%20Caf%C3%A9%20Sinagoga" target="_blank" rel="noreferrer">Order on WhatsApp</a>
-        </article>
-        <article class="pickup dark">
-          <div class="overline">Café Sinagoga</div>
-          <h2>Colombian origin, flavor that leaves a mark</h2>
-          <p>Geisha and Pink Bourbon are available as whole bean or ground. Castillo is available ground only. A concise portfolio with strong identity for more effective selling.</p>
-        </article>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">Café Sinagoga · Charlotte, North Carolina · WhatsApp orders: +1 (828) 579-8605</div>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>CAFÉ SINAGOGA</h4>
+          <p>The authentic taste of Colombia in the heart of Charlotte.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Charlotte, NC 28270</p>
+          <p>WhatsApp: +1 (828) 579-8605</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Café Sinagoga · Handcrafted Flavor.
+      </div>
+    </div>
   </footer>
 </body>
 </html>
